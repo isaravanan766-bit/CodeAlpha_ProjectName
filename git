@@ -1,0 +1,9 @@
+using UnityEngine;
+public class git : MonoBehaviour
+{
+private const int mainMenuIndex = 0;
+public void LoadMainMenu()
+{
+    SceneManager.LoadScene(mainMenuIndex);
+}
+}
